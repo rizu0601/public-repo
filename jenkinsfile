@@ -1,4 +1,7 @@
-tools {
-    jdk 'Java_21'
-    maven 'Maven_3.9.11'
+stage('Build SNAPSHOT') {
+    steps {
+        dir('app') {
+            sh 'mvn clean install'
+        }
+    }
 }
