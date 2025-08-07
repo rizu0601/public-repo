@@ -1,4 +1,4 @@
-.....hi this is Hello World{
-This is a Public Repository.....
+tools {
+    jdk 'Java_21'
+    maven 'Maven_3.9.11'
 }
-
